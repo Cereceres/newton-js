@@ -1,0 +1,30 @@
+{
+  "name": "newton-api-js",
+  "version": "0.0.1",
+  "description": "newton api newton.now.sh wrap to nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/newton-js.git"
+  },
+  "keywords": [
+    "newton",
+    "api",
+    "wrap"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/newton-js/issues"
+  },
+  "homepage": "https://github.com/Cereceres/newton-js#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.2.0"
+  }
+}
