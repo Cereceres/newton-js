@@ -1,5 +1,5 @@
 # newton-js
-newton api wrap to nodejs
+newton api https://newton.now.sh wrap to nodejs 
 ## API
 
 ### simplify(String) -> Promise
