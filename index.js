@@ -12,6 +12,12 @@ const sdk =  class extends Core {
         
         return this.api('/factor/' + exp).then(res => res.result)
     }
+
+    derive(exp){
+        if(typeof exp === 'undefined') return Promise.reject(new Error('Undefined is not supported')) 
+        
+        return this.api('/derive/' + exp).then(res => res.result)
+    }
 }
 
 module.exports = new sdk()
