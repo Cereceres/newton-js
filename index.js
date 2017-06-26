@@ -18,7 +18,6 @@ const sdk =  class extends Core {
         
         return this.api('/derive/' + exp).then(res => res.result)
     }
-
     
     integrate(exp, a, b){
         if(typeof exp === 'undefined') return Promise.reject(new Error('Undefined is not supported')) 
