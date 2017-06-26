@@ -1,6 +1,6 @@
 {
   "name": "newton-api-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "newton api newton.now.sh wrap to nodejs",
   "main": "index.js",
   "scripts": {
