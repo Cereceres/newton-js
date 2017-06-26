@@ -5,7 +5,6 @@ const Newton = require('../index')
 describe('factorize method', function () {
     it('should factorize the x*x+ x*x*x-3x', function * () {
         const result = yield Newton.factorize('x*x+ x*x*x-3x')
-        console.log(result)
         assert(result === 'x (x^2 + x - 3)')
     })
 
