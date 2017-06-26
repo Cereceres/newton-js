@@ -4,7 +4,7 @@
   "description": "newton api newton.now.sh wrap to nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov -t b68e1643-ccc5-4436-aec7-f941c3547418"
   },
   "repository": {
     "type": "git",
