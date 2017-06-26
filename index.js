@@ -32,6 +32,13 @@ const sdk =  class extends Core {
         '/area/'+ a + ':' + b + '|' + exp : '/integrate/'+ exp
         return this.api(path).then(res => res.result)
     }
+
+    findTangent(exp, a=0){
+        if(typeof exp === 'undefined') return Promise.reject(new Error('Undefined is not supported')) 
+
+        const path = '/tangent/'+ a + '|' + exp 
+        return this.api(path).then(res => res.result)
+    }
 }
 
 module.exports = new sdk()
