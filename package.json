@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Cereceres/newton-js#readme",
   "dependencies": {
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.2.0"
   }
 }
